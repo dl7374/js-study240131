@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+var score = +prompt('점수를 입력하세요.');
+alert('당신의 점수는: ' + score +'점')
+
+if(score >= 90){
+  if(score >=95){
+    alert('당신의 학점은 A+입니다.');
+  } else{
+    alert('당신의 학점은 A0입니다.');
+  }
+} else if(score >= 80){
+  alert('당신의 학점은 B 입니다.');
+} else if(score >= 70){
+  alert('당신의 학점은 C 입니다.');
+} else if(score >= 60){
+  alert('당신의 학점은 D 입니다.');
+} else{
+  alert('당신의 학점은 F 입니다.');
+}
+
+  </script>
+</body>
+</html>
