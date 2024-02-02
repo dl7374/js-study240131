@@ -8,45 +8,38 @@ section.main1 .img{
 
 }
 
-footer h2{
+footer div{
   color: #881c8f;
-  font-weight: 700;
-  margin: 40px;
-}
-footer h2 span{
-  border: 1px solid lightgray;
-  border-radius: 5px;
-  padding: 3px;
-  margin: 50px;
-  /* background: skyblue; */
-  color: gray;
+  margin-top: 40px;
+  font-size: 16px;
 }
 
-footer ul li{
-  color: #727272;
-  margin-left: 60px;
-}
 
-footer ul li:first-child{
-  font-weight: 600;
-  font-size: 15px;
-}
-footer ul li:last-child{
-  color: #727272;
-}
-footer ul.icon{
+footer ul.notice li a{
   display: inline-flex;
-  padding: 20px 0;
-  float: right;
-  margin-top: 20px;
-  margin-right: 200px;
-}
-footer ul.icon a{
+  float: left;
+  margin-left: 60px;
   text-decoration: none;
 }
-footer ul.icon li{
+
+footer ul.notice li:nth-child(2){
+  font-weight: 600;
+
+}
+footer .notice{ 
+}
+
+
+
+footer ul.address{
+  display: inline-flex;
+  float: left;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+footer ul.address li{
   margin-right: 25px;
-  font-size: 24px;
+  font-size: 13px;
 }
 footer ul.icon li:last-child{
   border: 1px solid lightgray;
