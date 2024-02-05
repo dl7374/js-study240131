@@ -13,9 +13,10 @@ footer h2{
   font-weight: 700;
   margin: 40px;
 }
-footer h2 span{
+footer h2 a{
   border: 1px solid lightgray;
   border-radius: 5px;
+  text-decoration: none;
   padding: 3px;
   margin: 50px;
   /* background: skyblue; */
