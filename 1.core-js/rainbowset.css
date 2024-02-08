@@ -1,0 +1,29 @@
+{
+  "files.autoSave": "afterDelay",
+  "workbench.iconTheme": "material-icon-theme",
+  "oneDarkPro.editorTheme": "One Dark Pro Darker",
+  "editor.tabSize": 2,
+  "emmet.variables": {
+      "lang": "ko"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[html]": {
+      "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "workbench.colorTheme": "Default Light Modern",
+  "RainbowBrackets.consecutivePairColors": [
+  
+
+
+
+      "()",
+      "[]",
+      "{}",
+      [
+          "teal",
+          "Navy",
+          "tomato"
+      ],
+      "Revioletd"
+  ]
+}
