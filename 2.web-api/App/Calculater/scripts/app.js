@@ -17,6 +17,13 @@ const calculate = type => {
   const originalResult = currentResult;
   const enteredNumber = getUserNumberInput();
 
+  if(!enteredNumber && enteredNumber!== 0 ){
+    alert('문제 발생!');
+    return;
+  }
+  
+  
+  
   let mark;
   if(type === 'ADD') {
     mark = '+';
@@ -28,6 +35,10 @@ const calculate = type => {
     mark = 'x';
     currentResult *= enteredNumber;
   } else {
+    if(enteredNumber === 0){
+      alert('0으로 나눌 수 없습니다.');
+      return;
+    }
     mark = '/';
     currentResult /= enteredNumber;
   }
